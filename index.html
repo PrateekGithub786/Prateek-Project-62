@@ -6,10 +6,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title></title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 	<ul class="contain">
+
 		<li class="links"><a href="#Home">Home</a></li>
 		<li class="links"><a href="#Grid Gallery">Grid Gallery</a></li>
+		<li class="links">Sliding Gallery</li>
+
 	</ul>
 </head>
 
@@ -19,11 +26,6 @@
 	</section>
 
 	<section id="Grid Gallery">
-
-	</section>
-
-	<section id="Sliding Gallery">
-
 		<div id="grid">
 
 			<span>
@@ -40,16 +42,87 @@
 
 			<span>
 				<img src="Hulk.jpg" />
+
 				<img src="Thor.jpg" />
+
 				<img src="Villan%20(Thanos).jpg" />
 
 			</span>
 
 		</div>
 
+	</section>
+
+	<section id="Sliding Gallery">
+
+		<div class="carousel slide" id="carousel_1">
+			<div class="carousel-inner">
+				<div class="item active">
+					<center>
+						<a href="#" target="_blank"><img class="img-responsive" src="Captain%20America.jpg" /></a>
+
+						<div class="carousel-content">
+							<p>Captain America</p>
+						</div>
+
+					</center>
+
+				</div>
+				<div class="item">
+					<center>
+						<a href="#" target="_blank"><img class="img-responsive" src="Captain%20Marvel.jpg" /></a>
+
+						<div class="carousel-content">
+							<p>Captain Marvel</p>
+						</div>
+					</center>
+				</div>
+				
+				<div class="item">
+					<center>
+						<a href="#" target="_blank"><img class="img-responsive" src="Gamora.jpg" /></a>
+
+						<div class="carousel-content">
+							<p>Gamora</p>
+						</div>
+					</center>
+				</div>
+				
+				<div class="item">
+					<center>
+						<a href="#" target="_blank"><img class="img-responsive" src="Hulk.jpg" /></a>
+
+						<div class="carousel-content">
+							<p>Hulk</p>
+						</div>
+					</center>
+				</div>
+				
+				<div class="item">
+					<center>
+						<a href="#" target="_blank"><img class="img-responsive" src= "Thor.jpg" /></a>
+
+						<div class="carousel-content">
+							<p>Thor</p>
+						</div>
+					</center>
+				</div>
+				
+				<div class="item">
+					<center>
+						<a href="#" target="_blank"><img class="img-responsive" src="Villan%20(Thanos).jpg"Captain%20Marvel.jpg"" /></a>
+
+						<div class="carousel-content">
+							<p>Thanos</p>
+						</div>
+					</center>
+				</div>
+				
+			</div>
+			<a class="left carousel-control" href="#carousel_1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="right carousel-control" href="#carousel_1" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
 
 	</section>
 
-</body>
-
-</html>
+</body></html>
